@@ -10,7 +10,7 @@ const testimonials = [
     name: 'Raj Mehra',
     title: 'Logistics Coordinator, TradeVerse India',
     avatar:
-      'https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=200&auto=format&fit=crop',
+      'https://res.cloudinary.com/twosapiens/image/upload/v1747893958/WhatsApp_Image_2025-04-09_at_19.20.16_5c2db04b_oibmpf.jpg',
   },
   {
     quote:
@@ -18,7 +18,7 @@ const testimonials = [
     name: 'Julia Chen',
     title: 'Logistics Lead, EastBridge Imports',
     avatar:
-      'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop',
+      'https://res.cloudinary.com/twosapiens/image/upload/v1747893958/image_4_rpgncg.png',
   },
   {
     quote:
@@ -26,7 +26,7 @@ const testimonials = [
     name: 'Caroline Smith',
     title: 'Supply Chain Analyst, BioNova',
     avatar:
-      'https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=200&auto=format&fit=crop',
+      'https://res.cloudinary.com/twosapiens/image/upload/v1747893959/image_3_sfske4.png',
   },
   {
     quote:
@@ -34,7 +34,7 @@ const testimonials = [
     name: 'Michael Reed',
     title: 'CEO, Oakland Global Trade',
     avatar:
-      'https://images.unsplash.com/photo-1544005316-04ae1f6d6ce6?q=80&w=200&auto=format&fit=crop',
+      'https://res.cloudinary.com/twosapiens/image/upload/v1748803107/WhatsApp_Image_2025-06-02_at_12.07.10_AM_qqrzqf.jpg',
   },
 ]
 
