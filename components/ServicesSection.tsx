@@ -59,7 +59,7 @@ const ServicesSection = () => {
         </motion.div>
 
         {/* 2) 3x2 Grid of Cards */}
-        <div className="grid gap-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
             <motion.article
               key={service.title}
@@ -67,13 +67,13 @@ const ServicesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.05 }}
-              className="group relative bg-white rounded-2xl p-6 border border-secondary-200 shadow-sm hover:shadow-xl transition-all duration-300"
+              className="group relative bg-white rounded-2xl p-5 sm:p-6 border border-secondary-200 shadow-sm hover:shadow-xl transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-xl bg-primary-50 flex items-center justify-center mb-4 group-hover:scale-105 transition-transform duration-300" aria-label={`${service.title} icon`}>
+              <div className="w-12 h-12 rounded-xl bg-primary-50 flex items-center justify-center mb-3 sm:mb-4 group-hover:scale-105 transition-transform duration-300" aria-label={`${service.title} icon`}>
                 {service.icon}
               </div>
-              <h3 className="text-xl font-semibold text-secondary-900 mb-2">{service.title}</h3>
-              <p className="text-secondary-600 leading-relaxed mb-4">{service.description}</p>
+              <h3 className="text-lg sm:text-xl font-semibold text-secondary-900 mb-1 sm:mb-2">{service.title}</h3>
+              <p className="text-secondary-600 leading-relaxed mb-3 sm:mb-4 text-sm sm:text-base">{service.description}</p>
               <Link href="/contact" className="text-primary-600 font-medium hover:text-primary-700">
                 Contact us →
               </Link>

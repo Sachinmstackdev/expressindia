@@ -24,16 +24,16 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="absolute z-10 left-0 bottom-8 sm:bottom-12 lg:bottom-20 w-full">
+      <div className="absolute z-10 left-0 bottom-6 sm:bottom-10 lg:bottom-20 w-full">
         <div className="px-3 sm:px-4 lg:px-6">
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="bg-secondary-900/90 text-white p-6 sm:p-10 md:p-12 max-w-3xl shadow-xl"
+            className="bg-secondary-900/90 text-white p-4 sm:p-8 md:p-10 max-w-[95%] sm:max-w-3xl shadow-xl"
           >
-            <h1 className="heading-xl mb-4">Smart Logistics<br />For Your Business</h1>
-            <p className="text-secondary-200 text-lg mb-8 max-w-2xl">
+            <h1 className="heading-xl mb-3 sm:mb-4">Smart Logistics<br />For Your Business</h1>
+            <p className="text-secondary-200 text-base sm:text-lg mb-6 sm:mb-8 max-w-2xl">
               Efficient logistics solutions for your business. Fast, reliable and technology‑driven services.
             </p>
             <motion.button

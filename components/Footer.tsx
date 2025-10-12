@@ -53,13 +53,13 @@ const Footer = () => {
               <h3 className="text-2xl font-bold">Get logistics insights in your inbox</h3>
               <p className="text-gray-300 text-sm mt-1">Monthly tips, route updates, and industry news.</p>
             </div>
-            <form className="w-full md:w-auto flex items-stretch">
+            <form className="w-full md:w-auto flex flex-col sm:flex-row items-stretch gap-3 sm:gap-0">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-full md:w-80 px-4 py-3 rounded-none text-secondary-900 placeholder-secondary-500 border border-secondary-300"
+                className="w-full sm:w-80 px-4 py-3 rounded-none text-secondary-900 placeholder-secondary-500 border border-secondary-300"
               />
-              <button type="submit" className="bg-primary-500 hover:bg-primary-600 px-5 rounded-none font-semibold flex items-center gap-2">
+              <button type="submit" className="bg-primary-500 hover:bg-primary-600 px-5 rounded-none font-semibold flex items-center gap-2 w-full sm:w-auto justify-center">
                 Subscribe <ArrowRight className="h-4 w-4" />
               </button>
             </form>
