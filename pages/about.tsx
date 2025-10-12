@@ -2,7 +2,7 @@
 
 import Head from 'next/head'
 import { motion } from 'framer-motion'
-import { Globe, Users, Truck, Phone, Calendar, MapPin, Star, Shield, Target, Heart, Clock, Package } from 'lucide-react'
+import { Globe, Users, Calendar, MapPin, Shield, Target, Heart, Package } from 'lucide-react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import CTASection from '../components/CTASection'
@@ -32,13 +32,7 @@ export default function AboutPage() {
     { name: 'IATA Approved', description: 'International Air Transport' }
   ]
 
-  const timeline = [
-    { year: '2010', title: 'Founded in Delhi', description: 'Started with a vision to revolutionize logistics in India' },
-    { year: '2015', title: 'Partnered with DHL', description: 'Became authorized partner for international shipping' },
-    { year: '2018', title: 'Expanded to 500 cities', description: 'Nationwide coverage with local expertise' },
-    { year: '2022', title: 'Reached 10M deliveries', description: 'Milestone achievement in customer satisfaction' },
-    { year: '2024', title: 'Tech Innovation Hub', description: 'Launched AI-powered logistics solutions' }
-  ]
+  // Timeline removed per request
 
   return (
     <>
@@ -54,88 +48,10 @@ export default function AboutPage() {
       <main className="min-h-screen bg-white">
         <Navbar />
         
-        {/* 1. Hero Section - aligned with main Hero styles */}
-        <section className="relative min-h-screen flex items-center overflow-hidden bg-secondary-900">
-          {/* Optional subtle texture/video parity via overlay only */}
-          <div className="absolute inset-0 video-overlay"></div>
-
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 relative z-10 w-full">
-            <div className="grid lg:grid-cols-5 gap-8 items-center">
-              {/* Left Content - 61.8% */}
-              <div className="lg:col-span-3">
-                <motion.div
-                  initial={{ opacity: 0, y: 50 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8 }}
-                >
-                  <h1 className="heading-xl mb-4 text-white">Delivering India,<br />One Parcel at a Time.</h1>
-                  
-                  <p className="text-secondary-200 text-lg mb-8 max-w-2xl">
-                    Partnered with <strong>DHL, FedEx, and India Express</strong> — we move businesses forward with trusted logistics and certified excellence.
-                  </p>
-                  
-                  <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                    <motion.button
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="btn-primary flex items-center justify-center space-x-2"
-                    >
-                      <Phone className="h-5 w-5" />
-                      <span>Book a Pickup</span>
-                    </motion.button>
-                    
-                    <motion.button
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="btn-secondary flex items-center justify-center space-x-2"
-                    >
-                      <Shield className="h-5 w-5" />
-                      <span>View Certifications</span>
-                    </motion.button>
-                  </div>
-                </motion.div>
-              </div>
-              
-              {/* Right Visual - 38.2% */}
-              <div className="lg:col-span-2">
-                <motion.div
-                  initial={{ opacity: 0, x: 100 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 1, delay: 0.3 }}
-                  className="relative"
-                >
-                  <div className="bg-secondary-800/70 backdrop-blur rounded-2xl p-6 shadow-xl border border-secondary-700">
-                    <div className="grid grid-cols-2 gap-4 text-secondary-100">
-                      <div className="text-center">
-                        <Truck className="h-12 w-12 mx-auto mb-3" />
-                        <div className="text-2xl font-bold text-white">500+</div>
-                        <div className="text-sm opacity-90">Cities Covered</div>
-                      </div>
-                      <div className="text-center">
-                        <Globe className="h-12 w-12 mx-auto mb-3" />
-                        <div className="text-2xl font-bold text-white">50+</div>
-                        <div className="text-sm opacity-90">Countries</div>
-                      </div>
-                      <div className="text-center">
-                        <Clock className="h-12 w-12 mx-auto mb-3" />
-                        <div className="text-2xl font-bold text-white">24/7</div>
-                        <div className="text-sm opacity-90">Support</div>
-                      </div>
-                      <div className="text-center">
-                        <Star className="h-12 w-12 mx-auto mb-3" />
-                        <div className="text-2xl font-bold text-white">99.9%</div>
-                        <div className="text-sm opacity-90">On-Time</div>
-                      </div>
-                    </div>
-                  </div>
-                </motion.div>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* Hero section removed per request */}
 
         {/* 2. Company Overview - Golden Two-Column */}
-        <section className="py-20 md:py-24 bg-white">
+        <section className="pt-32 md:pt-[140px] pb-20 md:pb-24 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-5 gap-12 items-center">
               {/* Left Text - 61.8% */}
@@ -308,38 +224,7 @@ export default function AboutPage() {
         {/* 6. Leadership Section (from home) */}
         <FounderSection />
 
-        {/* 7. Timeline Section */}
-        <section className="py-20 md:py-24 bg-secondary-50 overflow-hidden">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-              className="text-center mb-12"
-            >
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Journey</h2>
-              <p className="text-lg text-gray-600">Milestones that shaped our success</p>
-            </motion.div>
-            
-            <div className="flex overflow-x-auto space-x-8 pb-8">
-              {timeline.map((item, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 50 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: index * 0.2 }}
-                  viewport={{ once: true }}
-                  className="flex-shrink-0 w-80 bg-white p-8 rounded-2xl shadow-lg"
-                >
-                  <div className="text-3xl font-bold text-blue-600 mb-4">{item.year}</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                  <p className="text-gray-600">{item.description}</p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-        </section>
+        {/* 7. Timeline Section removed */}
 
         {/* 8. CTA Section */}
         <CTASection />

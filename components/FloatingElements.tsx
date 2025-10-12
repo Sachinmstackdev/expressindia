@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { MessageCircle, ArrowUp, Phone, Mail } from 'lucide-react'
+import { MessageCircle, ArrowUp } from 'lucide-react'
 
 const FloatingElements = () => {
   const [showScrollTop, setShowScrollTop] = useState(false)
@@ -35,13 +35,9 @@ const FloatingElements = () => {
     window.open('https://wa.me/919555606783?text=Hi! I need help with logistics services.', '_blank')
   }
 
-  const callNow = () => {
-    window.open('tel:+918700631697', '_self')
-  }
+  // Removed callNow; right-side floating contact buttons are removed
 
-  const sendEmail = () => {
-    window.open('mailto:hello@expresindia.com?subject=Logistics Inquiry', '_self')
-  }
+  // Email action replaced by WhatsApp deep link in floating buttons below
 
   return (
     <>
@@ -86,34 +82,7 @@ const FloatingElements = () => {
         )}
       </AnimatePresence>
 
-      {/* Floating Contact Buttons */}
-      <div className="fixed top-1/2 right-0 transform -translate-y-1/2 z-40 space-y-2">
-        <motion.button
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 1 }}
-          whileHover={{ scale: 1.1, x: -5 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={callNow}
-          className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-l-lg shadow-lg hover:shadow-xl transition-all duration-300"
-          aria-label="Call now"
-        >
-          <Phone className="h-5 w-5" />
-        </motion.button>
-
-        <motion.button
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 1.2 }}
-          whileHover={{ scale: 1.1, x: -5 }}
-          whileTap={{ scale: 0.9 }}
-          onClick={sendEmail}
-          className="bg-red-500 hover:bg-red-600 text-white p-3 rounded-l-lg shadow-lg hover:shadow-xl transition-all duration-300"
-          aria-label="Send email"
-        >
-          <Mail className="h-5 w-5" />
-        </motion.button>
-      </div>
+      {/* Right-side floating contact buttons removed */}
 
     </>
   )

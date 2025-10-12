@@ -24,7 +24,7 @@ export default function ContactPage() {
             <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="lg:col-span-3">
               <h1 className="heading-xl mb-4 text-secondary-900">Let’s Move Your Business Forward.</h1>
               <p className="text-secondary-700 text-lg max-w-2xl mb-6">We’re ready to help you schedule pickups, discuss partnerships, or answer your queries.</p>
-              <a href="#contact-form" className="btn-primary inline-flex items-center gap-2">Get in Touch</a>
+              <a href="https://wa.me/919555606783?text=Hi!%20I%20want%20to%20get%20in%20touch%20about%20logistics." className="btn-primary inline-flex items-center gap-2" target="_blank" rel="noopener noreferrer">Get in Touch</a>
               <div className="mt-4 text-sm text-secondary-600">Looking for solutions? Explore our <Link href="/services" className="text-primary-600 hover:text-primary-700">Services</Link> or learn more <Link href="/about" className="text-primary-600 hover:text-primary-700">About us</Link>.</div>
             </motion.div>
             {/* Right visual (38.2%) */}
@@ -32,7 +32,7 @@ export default function ContactPage() {
               <div className="relative rounded-2xl overflow-hidden shadow-xl border border-secondary-100">
                 <img src="https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Logistics hub with trucks" className="w-full h-72 object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-              </div>
+          </div>
             </motion.div>
           </div>
         </section>
@@ -94,7 +94,7 @@ export default function ContactPage() {
                   <input className="w-full px-4 py-3 rounded-lg border border-secondary-200 focus:ring-2 focus:ring-[#004aad] outline-none" placeholder="City / State" aria-label="City or State" />
                 </div>
                 <textarea className="w-full h-28 px-4 py-3 rounded-lg border border-secondary-200 focus:ring-2 focus:ring-[#004aad] outline-none" placeholder="Message" aria-label="Message" />
-                <button type="submit" className="inline-flex justify-center items-center px-6 py-3 rounded-lg text-white font-semibold bg-gradient-to-r from-[#004aad] to-[#ff8a00] hover:opacity-95 transition">Request Callback</button>
+                <a href="https://wa.me/919555606783?text=Hi!%20Please%20call%20me%20back%20about%20logistics." target="_blank" rel="noopener noreferrer" className="inline-flex justify-center items-center px-6 py-3 rounded-none text-white font-semibold bg-gradient-to-r from-[#004aad] to-[#ff8a00] hover:opacity-95 transition">Request Callback</a>
                 <a href="https://wa.me/919555606783?text=Hi! I need help with logistics services." className="text-primary-600 hover:text-primary-700 text-sm" aria-label="Chat on WhatsApp">Prefer WhatsApp? Message us instantly</a>
 
                 {/* Partner logos */}

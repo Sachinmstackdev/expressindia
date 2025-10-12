@@ -88,7 +88,7 @@ const AboutSection = () => {
                 viewport={{ once: true }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-lg font-semibold flex items-center space-x-2 shadow-lg hover:shadow-xl transition-all duration-300"
+                className="bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-none font-semibold flex items-center space-x-2 shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <span>Learn More</span>
                 <ArrowRight className="h-5 w-5" />
@@ -133,44 +133,7 @@ const AboutSection = () => {
           </motion.div>
         </div>
 
-        {/* Bottom Features */}
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-20 grid md:grid-cols-3 gap-8"
-        >
-          <div className="text-center p-8 bg-gradient-to-br from-primary-50 to-primary-100 rounded-2xl">
-            <div className="w-16 h-16 bg-primary-500 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Globe className="h-8 w-8 text-white" />
-            </div>
-            <h3 className="text-xl font-bold text-secondary-900 mb-2">Global Reach</h3>
-            <p className="text-secondary-600">
-              Worldwide logistics network spanning across 200+ countries with local expertise
-            </p>
-          </div>
-
-          <div className="text-center p-8 bg-gradient-to-br from-secondary-50 to-secondary-100 rounded-2xl">
-            <div className="w-16 h-16 bg-secondary-700 rounded-full flex items-center justify-center mx-auto mb-4">
-              <CheckCircle className="h-8 w-8 text-white" />
-            </div>
-            <h3 className="text-xl font-bold text-secondary-900 mb-2">Reliable Service</h3>
-            <p className="text-secondary-600">
-              99.9% on-time delivery rate with real-time tracking and insurance coverage
-            </p>
-          </div>
-
-          <div className="text-center p-8 bg-gradient-to-br from-green-50 to-green-100 rounded-2xl">
-            <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Users className="h-8 w-8 text-white" />
-            </div>
-            <h3 className="text-xl font-bold text-secondary-900 mb-2">Expert Support</h3>
-            <p className="text-secondary-600">
-              24/7 dedicated customer support with logistics experts ready to assist
-            </p>
-          </div>
-        </motion.div>
+        {/* Bottom Features removed on request */}
       </div>
     </section>
   )

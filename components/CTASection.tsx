@@ -40,7 +40,7 @@ const CTASection = () => {
             viewport={{ once: true }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-primary-500 hover:bg-primary-600 text-white px-10 py-4 rounded-lg font-bold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center space-x-2 uppercase tracking-wide"
+            className="bg-primary-500 hover:bg-primary-600 text-white px-10 py-4 rounded-none font-bold text-lg shadow-xl hover:shadow-2xl transition-all duration-300 flex items-center space-x-2 uppercase tracking-wide"
           >
             <span>Start Now</span>
             <ArrowRight className="h-5 w-5" />

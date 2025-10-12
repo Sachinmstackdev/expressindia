@@ -79,10 +79,10 @@ const Navbar = () => {
           {/* Right CTA */}
           <div className="justify-self-end">
             <motion.a
-              href="#quote"
+              href="https://wa.me/919555606783?text=Hi!%20I%20want%20to%20request%20a%20logistics%20plan."
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="btn-primary-rect hidden lg:inline-flex"
+              className="hidden lg:inline-flex bg-gradient-to-r from-primary-500 to-primary-600 text-white px-7 py-3 text-base font-semibold hover:shadow-xl transition-all duration-300 hover:scale-105 rounded-none"
             >
               Request a Logistics Plan
             </motion.a>
@@ -162,9 +162,9 @@ const Navbar = () => {
                   </nav>
 
                   <a
-                    href="#quote"
+                    href="https://wa.me/919555606783?text=Hi!%20I%20want%20to%20request%20a%20logistics%20plan."
                     onClick={() => setIsOpen(false)}
-                    className="btn-primary-rect w-full text-center"
+                    className="w-full text-center bg-gradient-to-r from-primary-500 to-primary-600 text-white px-7 py-3 text-base font-semibold hover:shadow-xl transition-all duration-300 rounded-none"
                   >
                     Get Quote
                   </a>
