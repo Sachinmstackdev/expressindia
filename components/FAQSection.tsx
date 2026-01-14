@@ -6,7 +6,7 @@ import { ChevronDown } from 'lucide-react'
 
 const faqs = [
   {
-    q: 'What services does Logistiqa offer?',
+    q: 'What services does Express India offer?',
     a: 'We provide end-to-end logistics including freight, warehousing, customs clearance, last-mile delivery, and real-time shipment tracking.'
   },
   {

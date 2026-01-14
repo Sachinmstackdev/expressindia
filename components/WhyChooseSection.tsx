@@ -39,7 +39,7 @@ const WhyChooseSection = () => {
           className="mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-black text-secondary-900 mb-4 uppercase tracking-tight">
-            WHY BUSINESSES CHOOSE<br />LOGISTIQA?
+            WHY BUSINESSES CHOOSE<br />Express India?
           </h2>
           <p className="text-lg text-secondary-600 max-w-2xl">
             Experience, trust, and technology — driving your success.

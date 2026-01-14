@@ -16,14 +16,14 @@ export default function AboutPage() {
   ]
 
   const partners = [
-    { name: 'DHL', logo: 'https://logos-world.net/wp-content/uploads/2020/05/DHL-Logo.png' },
-    { name: 'FedEx', logo: 'https://logos-world.net/wp-content/uploads/2020/03/FedEx-Logo.png' },
-    { name: 'India Express', logo: 'https://via.placeholder.com/120x60/FF6B35/FFFFFF?text=India+Express' },
-    { name: 'Blue Dart', logo: 'https://via.placeholder.com/120x60/0066CC/FFFFFF?text=Blue+Dart' },
-    { name: 'IndiaMART', logo: 'https://via.placeholder.com/120x60/00A651/FFFFFF?text=IndiaMART' },
-    { name: 'Tech Mahindra', logo: 'https://via.placeholder.com/120x60/E31837/FFFFFF?text=Tech+Mahindra' },
-    { name: 'TCS', logo: 'https://via.placeholder.com/120x60/004B87/FFFFFF?text=TCS' },
-    { name: 'Genpact', logo: 'https://via.placeholder.com/120x60/7B68EE/FFFFFF?text=Genpact' }
+    { name: 'DHL', logo: 'https://res.cloudinary.com/twosapiens/image/upload/v1768276211/Untitled_design__7_-removebg-preview_aeojfn.png' },
+    { name: 'FedEx', logo: 'https://res.cloudinary.com/twosapiens/image/upload/v1768276375/Untitled_design__8_-removebg-preview_iu8ofk.png' },
+    { name: 'Infosys', logo: 'https://res.cloudinary.com/twosapiens/image/upload/v1768277159/Untitled_design__11_-removebg-preview_a4zvfb.png' },
+    { name: 'Blue Dart', logo: 'https://res.cloudinary.com/twosapiens/image/upload/v1768275837/1280px-Blue_Dart_logo_transparen_yihbqr.png' },
+    { name: 'IndiaMART', logo: 'https://res.cloudinary.com/twosapiens/image/upload/v1768276557/Untitled_design__9_-removebg-preview_uyw77a.png' },
+    { name: 'Tech Mahindra', logo: 'https://res.cloudinary.com/twosapiens/image/upload/v1768276812/Untitled_design__10_-removebg-preview_nk7asp.png' },
+    { name: 'TCS', logo: 'https://res.cloudinary.com/twosapiens/image/upload/v1768277360/Untitled_design__12_-removebg-preview_t2dxc3.png' },
+    { name: 'Genpact', logo: 'https://res.cloudinary.com/twosapiens/image/upload/v1768277583/Untitled_design__13_-removebg-preview_ykyzkd.png' }
   ]
 
   const certifications = [

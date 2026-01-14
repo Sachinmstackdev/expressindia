@@ -17,8 +17,8 @@ const FounderSection = () => {
           {/* Left - Image */}
           <div className="relative h-96 lg:h-auto">
             <img
-              src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Founder - Daniel R. Vaughn"
+              src="https://res.cloudinary.com/twosapiens/image/upload/v1768356676/Untitled_design_14_bfsuyp.png"
+              alt="Founder - Dilip Singh"
               className="w-full h-full object-cover"
             />
           </div>
@@ -33,15 +33,15 @@ const FounderSection = () => {
               className="text-white"
             >
               <p className="text-2xl lg:text-3xl font-bold leading-tight mb-8">
-                "I STARTED LOGISTIQA TO BRING CLARITY AND CONTROL TO THE CHAOS OF GLOBAL LOGISTICS. WE'RE NOT JUST MOVING CARGO — WE'RE MOVING BUSINESSES FORWARD."
+                "IN A WORLD WHERE EVERY DELIVERY MATTERS, WE DON'T JUST MOVE PACKAGES — WE DELIVER PROMISES, ON TIME, EVERY TIME."
               </p>
-              
+
               <footer className="mt-8">
                 <div className="text-white/90 text-sm font-medium mb-2">
                   Founder & Chief Executive Officer
                 </div>
                 <div className="text-white text-xl font-bold uppercase tracking-wide">
-                  DANIEL R. VAUGHN
+                  Dilip Singh
                 </div>
               </footer>
             </motion.blockquote>

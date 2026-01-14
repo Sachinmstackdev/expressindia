@@ -75,7 +75,7 @@ const AboutSection = () => {
                 viewport={{ once: true }}
                 className="text-lg text-secondary-600 mb-8 leading-relaxed"
               >
-                At Logistiqa, we specialize in providing fast, reliable, and technology-driven 
+                At Express India, we specialize in providing fast, reliable, and technology-driven 
                 logistics services. With over 10 years of experience, we help businesses 
                 streamline their supply chains, optimize costs, and ensure timely deliveries — no 
                 matter where you operate.

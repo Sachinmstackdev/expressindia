@@ -6,17 +6,17 @@ import Image from 'next/image'
 const testimonials = [
   {
     quote:
-      "What I love most is the real-time visibility. I always know where my cargo is, no surprises.",
-    name: 'Raj Mehra',
-    title: 'Logistics Coordinator, TradeVerse India',
+      "What I love most is the real-time visibility. I always know where my package is, no surprises.",
+    name: 'Jayveer Dev',
+    title: 'CEO, Two sapiens',
     avatar:
       'https://res.cloudinary.com/twosapiens/image/upload/v1747893958/WhatsApp_Image_2025-04-09_at_19.20.16_5c2db04b_oibmpf.jpg',
   },
   {
     quote:
       'Their support team is amazing — responsive, helpful, and actually solves problems fast.',
-    name: 'Julia Chen',
-    title: 'Logistics Lead, EastBridge Imports',
+    name: 'Vinod Sharma',
+    title: 'Manager, VK hostels',
     avatar:
       'https://res.cloudinary.com/twosapiens/image/upload/v1747893958/image_4_rpgncg.png',
   },
@@ -30,9 +30,9 @@ const testimonials = [
   },
   {
     quote:
-      "We've tried others. Logistiqa is the only one we stuck with. They're reliable, affordable, and honest.",
-    name: 'Michael Reed',
-    title: 'CEO, Oakland Global Trade',
+      "We've tried others. Express India is the only one we stuck with. They're reliable, affordable, and honest.",
+    name: 'Devesh Pratap Singh',
+    title: 'Logistics Manager, Idock',
     avatar:
       'https://res.cloudinary.com/twosapiens/image/upload/v1748803107/WhatsApp_Image_2025-06-02_at_12.07.10_AM_qqrzqf.jpg',
   },
